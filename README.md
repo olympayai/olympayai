@@ -1,16 +1,37 @@
-## Hi there 👋
+```
+## Olympay
 
-<!--
-**olympayai/olympayai** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Financial control infrastructure for autonomous AI agents.
 
-Here are some ideas to get you started:
+Give your AI agents dedicated accounts, virtual cards, and programmable spending policies —
+with human-in-the-loop approvals and full audit logging.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+**Platform** · [olympay.tech](https://olympay.tech)  
+**CLI** · `npm install -g olympay`  
+**npm** · [npmjs.com/package/olympay](https://www.npmjs.com/package/olympay)
+
+---
+
+### What we build
+
+- Ledger accounts and virtual cards scoped per agent
+- Programmable spend policies enforced at transaction time
+- Real-time ALLOW / DENY / REVIEW decisions
+- Human approval queue for high-risk transactions
+- Workspace API keys and full audit trail
+
+---
+
+### Repositories
+
+| | |
+|---|---|
+| [platform](https://github.com/olympay-ai/platform) | Dashboard, REST API, and database layer |
+| [cli](https://github.com/olympay-ai/cli) | Terminal CLI — 18 commands to manage agents and finances |
+| [sdk-node](https://github.com/olympay-ai/sdk-node) | Node.js / TypeScript SDK *(coming soon)* |
+
+---
+
+`TypeScript` `PostgreSQL` `React` `Express` `Drizzle ORM`
